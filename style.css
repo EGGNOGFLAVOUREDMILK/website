@@ -1,10 +1,7 @@
-
-
 html, body{
     margin:  0;
     height: 100vh;
-    display: flex;
-    align-items:  center;
+    background-color: #fffffa;
 }
 
 .card{
@@ -15,18 +12,20 @@ html, body{
     height: 100vh;
 }
 
-.left{
+.left, .right{
+    flex:1;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.right{
-
+.left  img{
+    max-width: 30vw;
+    height: auto;
 }
 
 h1{
-     font-family: "Patrick Hand", cursive;
-    font-size: 5vw;
-    margin-left: 150px;
+    font-family: "Patrick Hand", cursive;
+    font-size: 2vw;
+    margin: 0;
 }
